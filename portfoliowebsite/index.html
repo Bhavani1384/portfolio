@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>Welcome to My Portfolio</h1>
+        <p><i>Hi, I'm Bhavani, a web developer with a passion for creating beautiful and functional websites. Check out my work and get in touch!</i></p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>web development</h3>
+            <p><i>Web development, also known as website development,
+                 refers to the tasks associated with creating,
+                  building, and maintaining websites 
+                  and web applications that run
+                   online on a browser..</i></p>
+            <img src="https://www.tatvasoft.com/outsourcing/wp-content/uploads/2023/06/Types-of-Web-Development-for-your-Project-1280x720.jpg" alt="web development" height="80" />     
+        </div>
+        <div class="project">
+            <h3>Graphic Designer</h3>
+            <p><i>Graphic design is a profession, academic
+                 discipline and applied art whose activity 
+                 consists in projecting visual communications
+                  intended to transmit specific messages
+                   to social groups, with specific objectives.</i></p>
+             <img src="https://www.animationcoursesahmedabad.com/images/blog/1682079858.jpg" alt="graphic design" height="80" />
+        </div>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <br>
+        <br>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <br>
+    <br>
+
+    <footer>
+        <p>&copy; 2024 [Bhavani]. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
